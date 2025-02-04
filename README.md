@@ -1,6 +1,7 @@
-# ruby-starter
+# docker-tutorial
 
-Boilerplate code for starting a ruby project with docker / docker-compose
+Code that goes with the mlibrary [Getting Started with Docker and Docker Compose](
+https://mlit.atlassian.net/wiki/spaces/LD/pages/2404090314/Getting+Started+with+Docker+and+Docker-Compose) tutorial
 
 ## Set up
 
@@ -23,7 +24,3 @@ The script does not overwrite `.env` or `/git/hooks/precommit`.
 This has rspec initialialized and has one sample test in `spec/sample_spec.rb`. 
 
 A github actions workflow is included that runs standard linting and the tests
-
-## Background
-This repository goes with this documentation:
-https://mlit.atlassian.net/wiki/spaces/LD/pages/2404090314/Getting+Started+with+Docker+and+Docker-Compose 
